@@ -1,0 +1,37 @@
+
+main .row{
+	margin-bottom: 20px;
+}
+figcaption span{
+	font-weight: bold;
+	display: block;
+}
+/*figure{
+	border: 1px solid lightgray;
+}*/
+figure figcaption{
+	border: 1px solid lightgray;
+	border-top: none;
+}
+.box{
+	text-align: center;
+}
+.box img, .box figcaption{
+	max-width: 100%;
+}
+.box img{
+	max-height: 444px;
+}
+.box figcaption{
+	padding: 10px;
+	margin: -5px auto;
+	max-width: 444px;
+	min-height: 50px;
+	text-align: left;
+}
+.box figcaption span{
+	margin-bottom: 5px;
+}
+@media screen and (min-width: 640px){
+
+}
