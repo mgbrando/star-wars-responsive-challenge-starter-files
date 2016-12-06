@@ -18,7 +18,7 @@
 	clear:both;
 }
 
-.col-4{
+.col-4, .col-12{
 	float: left;
 	width: 100%;
 
@@ -30,8 +30,4 @@
 	.col-4{
 		width: 33.3333%;
 	}
-
-}
-@media screen and (min-width: 1000px){
-
 }

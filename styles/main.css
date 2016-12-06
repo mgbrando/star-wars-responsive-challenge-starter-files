@@ -2,13 +2,29 @@
 main .row{
 	margin-bottom: 20px;
 }
+.star-wars-header{
+	background-color: orange;
+	margin-top: 0;
+	padding: 20px 0;
+}
+.headline{
+	margin: 0;
+	/*padding-left: 1.04166666%;
+  	padding-right: 1.04166666%;*/
+}
+.headline h1{
+	max-width: 444px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
 figcaption span{
 	font-weight: bold;
 	display: block;
 }
-/*figure{
-	border: 1px solid lightgray;
-}*/
+figure{
+	margin-left: 0;
+	margin-right: 0;
+}
 figure figcaption{
 	border: 1px solid lightgray;
 	border-top: none;
@@ -32,6 +48,25 @@ figure figcaption{
 .box figcaption span{
 	margin-bottom: 5px;
 }
+@media screen and (min-width: 491px){
+	.headline{
+		width: 444px;
+		margin: 0 auto;
+	}
+}
 @media screen and (min-width: 640px){
-
+	.star-wars-header, .headline{
+		width: 100%;
+	}
+	.headline{
+		margin: 0;
+	}
+	figure figcaption{
+		height: 80px;
+	}
+}
+@media screen and (min-width: 781px){
+	figure figcaption{
+		height: 100%;
+	}
 }
